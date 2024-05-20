@@ -11,7 +11,7 @@ export default {
       {
         light: {
           ...require("daisyui/src/theming/themes")["light"],
-          "--rounded-btn": "0.2rem",
+          "--rounded-btn": "0.3rem",
         },
       },
     ],

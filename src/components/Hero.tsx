@@ -10,7 +10,7 @@ const Hero = () => {
     <>
       <div className="hero-main">
         <Navbar />
-        <div className="">
+        <div className="hidden md:block">
           <HeroImg currentFrame={currentFrame} />
           <HeroContent
             currentFrame={currentFrame}

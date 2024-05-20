@@ -12,10 +12,11 @@ const ProgressBar = ({
   const [progress3, setProgress3] = useState(0);
 
   useEffect(() => {
+    const increase = 1;
     const interval = setInterval(() => {
       if (currentFrame === 1) {
         if (progress1 < 100) {
-          setProgress1(progress1 + 1);
+          setProgress1(progress1 + increase);
           setProgress2(0);
           setProgress3(0);
         } else {
@@ -24,7 +25,7 @@ const ProgressBar = ({
         }
       } else if (currentFrame === 2) {
         if (progress2 < 100) {
-          setProgress2(progress2 + 1);
+          setProgress2(progress2 + increase);
           setProgress3(0);
         } else {
           setCurrentFrame(3);
@@ -32,7 +33,7 @@ const ProgressBar = ({
         }
       } else if (currentFrame === 3) {
         if (progress3 < 100) {
-          setProgress3(progress3 + 1);
+          setProgress3(progress3 + increase);
         } else {
           setCurrentFrame(1);
           setProgress1(0);
