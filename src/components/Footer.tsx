@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="footer px-12 max-w-[1244px] my-8 mx-auto">
+    <footer className="footer px-12 max-w-[1244px] my-8 mx-auto mt-24">
       <nav>
         <h6 className="footer-title">About</h6>
         <a className="link link-hover">Terms</a>
