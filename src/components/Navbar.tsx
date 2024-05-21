@@ -63,7 +63,9 @@ const Navbar = () => {
       </div>
       <div className="navbar p-0 bg-transparent md:hidden flex justify-between flex-col">
         <div className="">
-          <a className="btn btn-ghost text-white text-2xl">daisyUI</a>
+          <a href="/" className="btn btn-ghost text-white text-2xl">
+            yelp
+          </a>
         </div>
         <form onSubmit={onSubmit} className="flex flex-col mb-2">
           <div className=" w-[350px] mx-auto">
